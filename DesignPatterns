@@ -1,0 +1,13 @@
+"""class F:
+    @staticmethod
+    def create(kind):
+        return kind.upper()
+
+print(F.create("x"))
+print(F().create("x")) """
+
+
+class G:
+    def __init__(self, name):
+        self.name = name
+print(G("Alice").name)  # Output: Alice
